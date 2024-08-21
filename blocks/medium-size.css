@@ -1,0 +1,52 @@
+@media screen and (max-width: 767px) and (min-width: 321px) {
+
+    .header__logo{
+        width: 46.32%;
+        margin: 5.88%;
+    }
+
+    .page__main{
+        width: 100%;
+    }
+
+    .main-content__title{
+    margin: 15.62% auto 5%;
+    width: 73.17%;
+    font-size: 40px;
+    line-height: 44px;
+    }
+
+    .main-content__subtitle{
+        margin: auto;
+        width: 90%;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .page__article{
+        width: 93.75%;
+        margin: 11.71% auto;
+    }
+
+    .article__title{
+        width: 98.17%;
+        font-size: 45px;
+        line-height: 49px;
+    }
+
+    .article__text{
+        width: 100%;
+    }
+
+    .article__quote{
+        width: 100%;
+    }
+
+    .article__text-continuation{
+        width: 100%;
+    }
+    
+    .footer__text{
+        margin-top: auto;
+    }
+}

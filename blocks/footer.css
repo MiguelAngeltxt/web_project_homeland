@@ -1,0 +1,16 @@
+.page__footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.footer__text{
+    font-family: Inter, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 7.18%;
+    margin-bottom: 1.87%;
+}

@@ -13,3 +13,5 @@ El proyecto consiste en la culminasión del sprint n°5, creando una página web
 Se utilizó HTML y CSS con implementación de media queries y valores de tamaño relativos.
 
 4. Enlace a GitHub Pages:
+
+https://miguelangeltxt.github.io/web_project_homeland/  

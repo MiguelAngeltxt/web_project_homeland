@@ -1,11 +1,11 @@
-.article__section{
+.content__article{
     width: 64.84%;
     margin-top: 7.18%;
     margin-left: 11.56%;
     margin-right: auto;
 }
 
-.article__title{
+.content__article__title{
     font-family: Inter, Arial, sans-serif;
     font-size: 54px;
     font-weight: 900;
@@ -13,7 +13,7 @@
     text-align: left;
 }
 
-.article__text{
+.content__article__text{
     font-family: Inter, Arial, sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -23,7 +23,7 @@
     width: 88.92%;
 }
 
-.article__quote{
+.content__article__quote{
     font-family: Inter, Arial, sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -32,7 +32,7 @@
     width: 88.19%;
 }
 
-.article__text-continuation{
+.content__article__text-continuation{
     font-family: Inter, Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;

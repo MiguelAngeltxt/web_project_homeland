@@ -1,11 +1,11 @@
-.page__main{
+.main{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 76.87%;
 }
 
-.main-content__title{
+.content__title{
     font-family: Inter, Arial, sans-serif;
     font-size: 96px;
     font-weight: 900;
@@ -15,7 +15,7 @@
     width: 73.17%;
 }
 
-.main-content__subtitle{
+.content__subtitle{
     font-family: Inter, Arial, sans-serif;
     font-size: 30px;
     font-weight: 400;
@@ -25,7 +25,7 @@
     width: 73.17%;
 }
 
-.main-content__image{
+.content__image{
     margin-top: 6.51%;
     width: 100%;
 }

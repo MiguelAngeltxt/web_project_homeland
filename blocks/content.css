@@ -37,7 +37,7 @@
     margin-right: auto;
 }
 
-.content__article__title{
+.content__article-title{
     font-family: Inter, Arial, sans-serif;
     font-size: 54px;
     font-weight: 900;
@@ -45,7 +45,7 @@
     text-align: left;
 }
 
-.content__article__text{
+.content__article-text{
     font-family: Inter, Arial, sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -55,7 +55,7 @@
     width: 88.92%;
 }
 
-.content__article__quote{
+.content__article-quote{
     font-family: Inter, Arial, sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -64,7 +64,7 @@
     width: 88.19%;
 }
 
-.content__article__text-continuation{
+.content__article-text-continuation{
     font-family: Inter, Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;

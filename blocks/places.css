@@ -1,0 +1,25 @@
+.place{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    grid-template-areas: 
+    "title artist"
+    "image description"
+    "image description";
+}
+
+.place__title{
+    grid-area: title;
+}
+
+.place__description{
+    grid-area: artist;
+}
+
+.place__image{
+    grid-area: image;
+}
+
+.place__summary{
+    grid-area: description;
+}

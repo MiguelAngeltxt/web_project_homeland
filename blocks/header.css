@@ -5,7 +5,27 @@
 }
 
 .header__logo{
-    width: 19.91%;
-    height: 50.34%;
-    margin: 2.65%;
+    width: 254.84px;
+    height: 68.94px;
+    margin-top: 34px;
+}
+
+@media screen and (max-width:768px){
+
+    .header__logo{
+        width: 254px;
+        height: 66px;
+        margin-top: 30px;
+    }
+    
+}
+
+@media screen and (max-width:320px){
+
+    .header__logo{
+        width: 188px;
+        height: 52px;
+        margin-top: 20px;
+    }
+    
 }

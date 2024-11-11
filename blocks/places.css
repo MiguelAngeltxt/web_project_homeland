@@ -1,5 +1,6 @@
-.content_places{
-    margin-top: 40px;
+.places{
+    margin: 12px auto 0px;
+    width: 987px;
 }
 
 
@@ -11,7 +12,6 @@
     "title artist"
     "image description"
     "image description";
-    margin-top: 80px;
     row-gap: 48px;
 }
 
@@ -24,6 +24,7 @@ line-height: 76px;
 text-align: left;
 height: fit-content;
 align-self: end;    
+margin-top: 80px;
 }
 
 .place__description{
@@ -85,4 +86,105 @@ text-align: left;
 
 .place__image:hover{
     filter: brightness(0.5);
+}
+
+@media screen and (max-width:768px){
+
+    .places{
+        margin: 16px auto 0px;
+        width: 720px;
+    }
+
+    .place{
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: repeat(3 , 1fr);
+        grid-template-areas: 
+        "title artist"
+        "image description"
+        "link description";
+        row-gap: 48px;
+    }
+
+    .place__title{
+    font-size: 42px;
+    line-height: 46px;
+    margin-top: 72px;
+    width: 340px;
+    }
+
+    .place__description{
+    width: 352px;
+    }
+    
+
+    .place__image{
+        width: 340px;
+    }
+
+    .place__summary{
+        font-size: 16px;
+        width: 352px;
+    }
+
+    .place__link{
+        height: fit-content;
+    }
+    
+}
+
+@media screen and (max-width:320px){
+    
+    .places{
+        width: 100vw;
+    }
+
+    .place{
+        justify-items: center;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-template-rows: repeat(5 , 1fr);
+        grid-template-areas: 
+        "title"
+        "artist"
+        "image"
+        "description"
+        "link";
+        row-gap: 30px;
+    }
+
+    .place__title{
+    font-size: 32px;
+    line-height: 35px;  
+    margin: 50px auto 0;
+    width: 288px;
+    }
+
+    .place__description{
+        width: 288px;
+    }
+
+    .place__image{
+        filter: none;
+        box-shadow:none;
+        width: 100vw;
+    }
+
+    .place__summary{
+        font-size: 16px;
+        width: 288px;
+    }
+    
+    .place__link{
+        width: fit-content;
+        border-radius: 4px;
+        padding: 13px 20px;
+        background-image: linear-gradient(to left, #003A7B , #0278FE);
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21.78px;
+        box-shadow: 5px 5px 20px rgb(33, 33, 33);
+    }
 }

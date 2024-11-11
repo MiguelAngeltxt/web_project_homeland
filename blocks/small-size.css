@@ -1,55 +1,13 @@
-@media screen and (max-width: 320px) {
+/*@media screen and (max-width: 320px) {
 
-    .header__logo{
-        width: 58.75%;
-        height: 16.25%;
-        margin: 6.25%;
-    }
-
-    .page__main{
-        width: 100%;
-    }
-
-    .main-content__title{
-        margin: 15.62% auto 5%;
-        width: 73.17%;
-        font-size: 40px;
-        line-height: 44px;
-    }
-
-    .main-content__subtitle{
-        margin: auto;
-        width: 90%;
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    .main-content__image{
-        margin-top: 12.5%;
-        width: 100%;
-    }
-
-    .page__article{
-        width: 90%;
-        margin: 20% auto;
-    }
-
-    .article__title{
-        font-size: 32px;
-        line-height: 35px;
-    }
-
-    .article__text{
-        line-height: 30px;
-    }
-    
-    .article__quote{
-        width: 100%;
-        margin-top: 3.12%;
-    }
-    
-    .article__text-continuation{
-        margin-top: 11.11%;
-        width: 86.99%;
-    }
+.content_gallery{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr); 
+}
+.place{
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    grid-template-rows: repeat(9 , 1fr);
+    width: 100vw;
+}
 }

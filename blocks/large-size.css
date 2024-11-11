@@ -1,4 +1,4 @@
-@media screen and (max-width: 1279px) and (min-width: 768px) {
+/*@media screen and (max-width: 1279px) and (min-width: 768px) {
 
     .page__main{
         width: 100%;
@@ -8,49 +8,43 @@
         width: 93.75%;
     }
 
-    .main-content__title{
-        width: 100%;
+    .content__title{
+        width: 530px;
     font-size: 75px;
     line-height: 79px;
     }
 
-    .main-content__subtitle{
-        width: 100%;
+    .content__subtitle{
+        width: 720px;
     }
 
-    .page__article{
+    .content__image{
+        width: 100vw;
+    }
+
+    .content__article{
         width: 100%;
         margin: 11.71% auto;
     }
 
-    .article__title{
-        width: 98.17%;
-        font-size: 45px;
-        line-height: 49px;
-    }
-
-    .article__text{
+    .content__article-text{
         width: 100%;
     }
 
-    .article__quote{
+    .content__article-quote{
         width: 100%;
     }
 
-    .article__text-continuation{
+    .content__article-text-continuation{
         width: 100%;
-    }
-    
-    .footer__text{
-        margin-top: auto;
     }
 
     .content_gallery{
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr); 
         grid-gap: 16px;
-        margin-top: 64px;
-        width: 100%;
+        margin-top: 118px;
     }
     
 /*.img1 {

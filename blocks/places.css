@@ -1,4 +1,4 @@
-.places{
+.place{
     margin: 12px auto 0px;
     width: 987px;
 }
@@ -13,8 +13,6 @@
     "image description"
     "image description";
     row-gap: 48px;
-    margin: 12px auto 0px;
-    width: 987px;
 }
 
 .place__title{

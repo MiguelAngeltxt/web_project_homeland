@@ -59,7 +59,7 @@ text-align: left;
     line-height: 26.08px;
 }
 
-.place__link{
+.place__button{
     width: fit-content;
     border-radius: 4px;
     padding: 13px 20px;
@@ -74,7 +74,7 @@ text-align: left;
     box-shadow: 5px 5px 20px rgb(33, 33, 33);
 }
 
-.place__link:hover{
+.place__button:hover{
     background-image: linear-gradient(90deg, #003A7B40 , #0278FE40);
 }
 
@@ -113,7 +113,7 @@ text-align: left;
         width: 352px;
     }
 
-    .place__link{
+    .place__button{
         height: fit-content;
     }
     
@@ -155,7 +155,7 @@ text-align: left;
         width: 288px;
     }
     
-    .place__link{
+    .place__button{
         width: fit-content;
         border-radius: 4px;
         padding: 13px 20px;

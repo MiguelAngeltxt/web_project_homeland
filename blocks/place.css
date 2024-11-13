@@ -63,7 +63,7 @@ text-align: left;
     width: fit-content;
     border-radius: 4px;
     padding: 13px 20px;
-    background-image: linear-gradient(to left, #003A7B , #0278FE);
+    background-image: linear-gradient(90deg, #003A7B , #0278FE);
     text-align: center;
     text-decoration: none;
     color: white;
@@ -75,7 +75,7 @@ text-align: left;
 }
 
 .place__link:hover{
-    background-image: linear-gradient(to left, #003A7B40 , #0278FE40);
+    background-image: linear-gradient(90deg, #003A7B40 , #0278FE40);
 }
 
 .place__image:hover{
@@ -159,7 +159,7 @@ text-align: left;
         width: fit-content;
         border-radius: 4px;
         padding: 13px 20px;
-        background-image: linear-gradient(to left, #003A7B , #0278FE);
+        background-image: linear-gradient(90deg, #003A7B , #0278FE);
         text-align: center;
         text-decoration: none;
         color: white;

@@ -63,7 +63,7 @@ text-align: left;
     width: fit-content;
     border-radius: 4px;
     padding: 13px 20px;
-    background-image: linear-gradient(90deg, #003A7B , #0278FE);
+    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     text-align: center;
     text-decoration: none;
     color: white;
@@ -75,7 +75,8 @@ text-align: left;
 }
 
 .place__button:hover{
-    background-image: linear-gradient(90deg, #003A7B40 , #0278FE40);
+    background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+
 }
 
 .place__image:hover{
@@ -159,7 +160,7 @@ text-align: left;
         width: fit-content;
         border-radius: 4px;
         padding: 13px 20px;
-        background-image: linear-gradient(90deg, #003A7B , #0278FE);
+        background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
         text-align: center;
         text-decoration: none;
         color: white;

@@ -21,13 +21,13 @@ align-self: end;
 margin-top: 80px;
 }
 
-.place__description{
+.place__title{
     grid-area: artist;
     height: fit-content;
     align-self: end;
 }
 
-.place__artist{
+.place__title{
     font-family: Inter;
 font-size: 12px;
 font-weight: 400;
@@ -37,7 +37,7 @@ text-align: left;
 color:#AAAAAA;
 }
 
-.place__artist-description{
+.place__title-description{
     font-family: Inter;
 font-size: 18px;
 font-weight: 400;
@@ -51,7 +51,7 @@ text-align: left;
     box-shadow: 10px 10px 20px rgb(21, 21, 21);
 }
 
-.place__summary{
+.place__description{
     grid-area: description;
     font-family: Inter, Arial, sans-serif;
     font-size: 18px;
@@ -100,7 +100,7 @@ text-align: left;
     width: 340px;
     }
 
-    .place__description{
+    .place__title{
     width: 352px;
     }
     
@@ -109,7 +109,7 @@ text-align: left;
         width: 340px;
     }
 
-    .place__summary{
+    .place__description{
         font-size: 16px;
         width: 352px;
     }
@@ -141,7 +141,7 @@ text-align: left;
     width: 288px;
     }
 
-    .place__description{
+    .place__title{
         width: 288px;
     }
 
@@ -151,7 +151,7 @@ text-align: left;
         width: 100vw;
     }
 
-    .place__summary{
+    .place__description{
         font-size: 16px;
         width: 288px;
     }

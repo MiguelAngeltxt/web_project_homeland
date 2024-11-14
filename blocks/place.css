@@ -26,7 +26,7 @@
   margin-bottom: 48px;
 }
 
-.place__artist__title {
+.place__artist-title {
   font-family: Inter;
   font-size: 12px;
   font-weight: 400;
@@ -36,7 +36,7 @@
   color: #aaaaaa;
 }
 
-.place__artist__description {
+.place__artist-description {
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;

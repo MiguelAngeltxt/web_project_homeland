@@ -119,7 +119,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .place {
     justify-items: center;
     grid-template-columns: repeat(1, 1fr);
@@ -145,7 +145,7 @@
   .place__image {
     filter: none;
     box-shadow: none;
-    width: 100vw;
+    width: 100%;
   }
 
   .place__description {
